@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    // new
+
+
+    <color name="theme10_colorPrimary">#554BDF</color>
+    <color name="theme10_colorPrimaryDark">#554BDF</color>
+    <color name="theme10_colorAccent">#554BDF</color>
+    <color name="theme10_colorPrimary_light">#3E3A5BFB</color>
+    <color name="theme10_textColorPrimary">#130925</color>
+    <color name="theme10_textColorSecondary">#888888</color>
+    <color name="theme10_textColorSecondary_blue">#86859B</color>
+    <color name="theme10_textColorThird">#BABFB6</color>
+    <color name="theme10_textColorGrey">#B4BBC2</color>
+    <color name="theme10_white">#FFFFFF</color>
+    <color name="theme10_layout_background_white">#FFFFFF</color>
+    <color name="theme10_view_color">#B4BBC2</color>
+    <color name="theme10_blue_color">#3A5BFB</color>
+    <color name="Food_colorPrimary">#3B8BEA</color>
+    <color name="Food_colorPrimaryDark">#3B8BEA</color>
+    <color name="Food_colorAccent">#4ec77f</color>
+
+    <color name="arrow_color">#23A9C9</color>
+</resources>

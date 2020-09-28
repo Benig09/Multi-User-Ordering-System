@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlToolbar2"
+    android:layout_width="match_parent"
+    android:background="@color/theme10_layout_background_white"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_alignParentBottom="true">
+
+
+
+    <ImageView
+        android:id="@+id/ivBack2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+
+        android:src="@drawable/cart2" />
+
+
+
+    <TextView
+        android:id="@+id/toolBarTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/theme10_textColorPrimary"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/Theme10FontSemiBold"
+        tools:text="Select Category" />
+
+
+
+</RelativeLayout>

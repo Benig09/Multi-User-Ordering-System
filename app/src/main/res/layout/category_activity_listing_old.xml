@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme10_layout_background_white"
+    tools:context=".CategoryListingActivity">
+
+    <include layout="@layout/category_toolbar"
+        android:id="@+id/ddcvv"/>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_below="@id/ddcvv"
+        android:layout_marginTop="0dp"
+        android:clipToPadding="false"
+        android:rotation="180"
+        android:overScrollMode="never"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="16dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rvList"
+        android:layout_above="@id/ddcvv2"
+        android:layout_marginTop="0dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="16dp" />
+
+    <include
+        android:id="@+id/ddcvv2"
+        layout="@layout/category_toolbar_below" />
+
+
+</RelativeLayout>

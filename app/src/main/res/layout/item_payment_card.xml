@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="351dp"
+    android:background="@color/theme10_layout_background_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".IteamDetilesViewFragment">
+
+
+    <include
+
+        android:id="@+id/ddcvvz"
+        layout="@layout/category_toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:rotation="180"
+        android:src="@drawable/visacard"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/ddcvvz" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:rotation="180"
+        android:src="@drawable/mastercard"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/ddcvvz" />
+
+    <ImageView
+        android:id="@+id/Cash"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:rotation="180"
+        android:src="@drawable/cash2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/ddcvvz" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:rotation="180"
+        android:text="Pay With"
+        android:textAppearance="@style/Theme10FontSemiBold"
+        android:textColor="@color/theme10_textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ddcvvz" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:editable="false"
+        android:rotation="180"
+        android:text="Name on card"
+        android:textAppearance="@style/Theme10FontSemiBold"
+        android:textColor="@color/theme10_textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:editable="false"
+        android:rotation="180"
+        android:text="Card number"
+        android:textAppearance="@style/Theme10FontSemiBold"
+        android:textColor="@color/theme10_textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="80dp"
+        android:layout_height="54dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:editable="false"
+        android:rotation="180"
+        android:text="MM/YY"
+        android:textAppearance="@style/Theme10FontSemiBold"
+        android:textColor="@color/theme10_textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="80dp"
+        android:layout_height="54dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:editable="false"
+        android:rotation="180"
+        android:text="CCV"
+        android:textAppearance="@style/Theme10FontSemiBold"
+        android:textColor="@color/theme10_textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
